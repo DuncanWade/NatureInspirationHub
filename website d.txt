@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Lifestyle Brand</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .logo {
+            display: block;
+            margin: 20px auto;
+            max-width: 200px;
+        }
+
+        .music {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .poetry {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name - Lifestyle Brand</h1>
+    </header>
+
+    <nav>
+        <a href="#photography">Photography</a>
+        <a href="#music">Music</a>
+        <a href="#poetry">Poetry</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="photography">
+        <div class="container">
+            <h2>Photography</h2>
+            <!-- Showcase your photography here -->
+            <p>Insert some of your captivating outdoor photographs here.</p>
+        </div>
+    </section>
+
+    <section id="music">
+        <div class="container">
+            <h2>Music</h2>
+            <div class="music">
+                <!-- Embed your music here -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="poetry">
+        <div class="container">
+            <h2>Poetry</h2>
+            <!-- Showcase your poetry here -->
+            <div class="poetry">
+                <p>Roses are red, violets are blue, insert your poetic lines here, and let your words ring true.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <!-- Include contact information and a contact form if needed -->
+            <p>Email: your@email.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name - All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
